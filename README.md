@@ -11,10 +11,19 @@ Minecraft tested version:
 Teleport player to the defined hub
 
 ### /sethub
-**[Admin only]** Set the location of the Hub
+Set the location of the Hub  
+*Require Hub.set permission to execute*
 #### Args :
 - X pos *(optional)*
 - Y pos *(optional)*
 - Z pos *(optional)*
 - Yaw *(optional)*
 - Pitch *(optional)*
+
+## Permissions
+### Hub.tp
+Allow player to tp to the Hub
+### Hub.set
+Alow player to set the Hub (recomended for Admins only)
+### Hub.*
+Allow player to execute all the commands of th Hub plugin
